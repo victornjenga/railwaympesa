@@ -1,6 +1,6 @@
 const express = require("express");
-const router=express.Router()
-const {createToken, postStk}= require("../controller/token")
+const router = express.Router();
+const { createToken, postStk } = require("../controller/token");
 
-router.post("/",createToken,postStk)
-module.exports=router
+router.post("/", createToken, postStk);
+module.exports = router;

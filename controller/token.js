@@ -2,8 +2,8 @@ const axios = require("axios");
 
 //middleware
 const createToken = async (req, res, next) => {
-  const secret = "LPf7AHoyIboJt1CA";
-  const consumer = "AVzAS3P615hGfjAngzKJD8tEZw4ad2N8";
+  const secret = "eYot6L21vWjeyXAj";
+  const consumer = "1cNAsznW7qdRGEGR4ljle8vGh2IwBwIq";
   const auth = new Buffer.from(`${consumer}:${secret}`).toString("base64");
   await axios
     .get(
